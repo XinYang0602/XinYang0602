@@ -1,51 +1,61 @@
-## 👋 Hi, I'm Xin — Computer Engineering @ Georgia Tech
+# Hi, I'm Xin Yang
 
-I'm a Computer Engineering student with strong interests in:
-- Embedded Systems & PCB Design
-- FPGA / Hardware-Software Co-design
-- Biomedical & Wearable Devices
+I'm pursuing an **M.S. in Computer Engineering at Georgia Tech**, with graduation expected in **December 2026**. I build software across backend systems, data pipelines, machine learning, and real-time applications.
 
----
+**Seeking Software Development Engineer opportunities · Open to relocation**
 
-### 🛠️ Tech Stack
-- **Hardware**: KiCad, STM32, ESP32, Oscilloscope, Logic Analyzer
-- **Digital**: SystemVerilog, Verilog, FPGA (Xilinx)
-- **Software**: C/C++, Python, MATLAB
-- **Interfaces**: SPI, I2C, UART, ADC, BLE
+## Experience
 
----
+**Sciencia AI — Software Development Engineer Intern**  
+*June–August 2026 · Python, Pandas, PyTorch, MySQL, REST APIs*
 
-### 📌 Featured Projects
+- Built a modular ingestion pipeline for **500K+ reviews across 10+ platforms**, turning API responses into validated datasets for analytics and ML.
+- Developed reusable processing libraries and indexed MySQL storage, and orchestrated ingestion through Transformer-based sentiment analysis.
 
-#### 🧠 Real-Time Robust sEMG Gesture Recognition System
-**Full-Stack Hardware Lead | Analog Front-End · STM32 · Embedded C**
-- Designed a high-fidelity analog front-end with Twin-T notch filters, achieving >20 dB suppression of 60 Hz interference.
-- Built adaptive bandwidth and envelope detection circuitry, improving SNR by 3.66 dB for weak muscle signals.
-- Implemented real-time active impedance monitoring (10–300 kΩ) on STM32 to ensure reliable electrode contact.
-- End-to-end system covering signal acquisition, conditioning, firmware, and validation.
+**Dr. Ear Technology — Software Development Engineer Intern**  
+*May–August 2025 · Python, PyTorch*
 
----
+- Developed a Transformer-based speech-intelligibility model and a mobile hearing-assessment prototype integrating signal processing, REST APIs, and inference.
+- Reached **81.4% token-level prediction accuracy** on standardized Harvard Sentence data and built a tool-calling agent workflow to inspect low-confidence predictions.
 
-#### 🧬 SenSeqNet: Cellular Senescence Detection
-**AI Developer | ESM-2 · CNN–LSTM · PyTorch**
-- Developed a hybrid CNN–LSTM model using ESM-2 protein embeddings for cellular senescence detection.
-- Achieved 83.55% accuracy, outperforming traditional ML models (RF, SVM, XGBoost) and single DL baselines.
-- Demonstrated strong feature learning on complex biological sequences through extensive comparative studies.
-- Focused on robustness, generalization, and biologically meaningful representation learning.
+**Zero School Information Technology — Software Development Engineer Intern**  
+*May–August 2024 · JavaScript, HTML/CSS, WeChat API, Redis*
 
----
+- Built a campus food-ordering mini program serving **15+ university locations**, with cart management, order tracking, authentication, and payment integration.
+- Replaced periodic polling with Redis-backed caching and pub/sub updates, and built an asynchronous merchant dashboard.
 
-#### 🎮 Gomoku Game with AI on FPGA
-**Hardware & Software Developer | SystemVerilog · FPGA · Embedded C**
-- Implemented a real-time Gomoku game on Spartan-7 FPGA with USB keyboard input and HDMI display output.
-- Designed a memory-mapped 16×16 board system with <1 ms move update latency.
-- Enhanced HDMI text controller to support 8-bit color and sprite rendering.
-- Built AI opponent using Minimax with Alpha-Beta pruning, reducing average move time to <2 s.
+## Selected projects
 
+### [DEAOE Website & Application Platform](https://github.com/XinYang0602/deaoe-website-portfolio)
+*PHP · JavaScript · SQLite · Playwright*
 
----
+A responsive website, CMS, and application platform with transactional workflows, searchable interfaces, and isolated regression tests. The public repository contains reviewed source, synthetic tests, and English documentation; production records and private deployment materials are excluded.
 
-### 🎯 Currently Learning
-- Low-power mixed-signal design
-- Advanced FPGA architectures
-- Biomedical signal processing
+### SenSeqNet — Protein-Sequence-Based Senescence Detection
+*Python · PyTorch · ESM-2 · CNN–LSTM*
+
+Built a hybrid CNN–LSTM using ESM-2 protein embeddings for binary senescence classification. Achieved **83.55% accuracy** and evaluated performance against traditional ML and standalone deep-learning baselines.
+
+### Stellaris — Mission-Oriented Rover Control System
+*ESP32 · FreeRTOS · Embedded Firmware*
+
+Built task-based firmware for sensor acquisition, motor control, and telemetry. Used a finite-state machine and non-blocking producer–consumer pipeline to keep control responsive, and debugged concurrency issues, buffer overflows, and packet loss.
+
+## Technical skills
+
+| Area | Technologies |
+| --- | --- |
+| Languages | Python, C/C++, JavaScript, SQL, SystemVerilog |
+| Backend & APIs | FastAPI, Flask, Django, Node.js, REST, JSON |
+| Data & ML | Pandas, NumPy, PyTorch, Transformer models |
+| Databases | PostgreSQL, MySQL, SQLite, Redis; schema design and indexing |
+| Tools & practices | Git, Linux, Docker, CI/CD, unit testing, debugging |
+| Cloud | AWS, Azure, GCP |
+| Real-time systems | ESP32, FreeRTOS, event-driven control, concurrent tasks |
+
+## Education
+
+- **Georgia Institute of Technology** — M.S. in Computer Engineering, August 2025–December 2026 *(expected)*.
+- **University of Illinois Urbana-Champaign** — B.S. with Honors in Computer Engineering, August 2021–May 2025; Dean's List.
+
+At UIUC, I also worked as a lab assistant, standardizing PCB testing and helping teams debug and integrate Arduino-based embedded systems.
