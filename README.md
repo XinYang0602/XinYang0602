@@ -26,10 +26,16 @@ I'm pursuing an **M.S. in Computer Engineering at Georgia Tech**, with graduatio
 
 ## Selected projects
 
-### [DEAOE Website & Application Platform](https://github.com/XinYang0602/deaoe-website-portfolio)
+### [DEAOE — Lightweight ERP & Product Website](https://github.com/XinYang0602/deaoe-website-portfolio)
 *PHP · JavaScript · SQLite · Playwright*
 
-A responsive website, CMS, and application platform with transactional workflows, searchable interfaces, and isolated regression tests. The public repository contains reviewed source, synthetic tests, and English documentation; production records and private deployment materials are excluded.
+A web-based **lightweight ERP for a home-appliance business**, bringing **sales, purchasing, inventory, receivables/payables, and after-sales service** into one desktop- and mobile-friendly workspace.
+
+- Connects sales orders and purchase receipts with multi-warehouse stock tracking and customer/supplier settlement balances.
+- Supports installation and repair requests, device records, and electronic warranty cards, alongside a public product website and CMS.
+- Uses transactional updates, repeat-request protection, and isolated backend and browser regression tests.
+
+[Explore the modules and workflow diagrams →](https://github.com/XinYang0602/deaoe-website-portfolio#how-the-business-workflow-fits-together) · Public source and synthetic tests only; no production customer data.
 
 ### SenSeqNet — Protein-Sequence-Based Senescence Detection
 *Python · PyTorch · ESM-2 · CNN–LSTM*
